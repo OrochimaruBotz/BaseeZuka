@@ -338,7 +338,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await helga.setStatus(`❄️Base Helga | ⛈️Running Time : ${uptime}`).catch((_) => _);
+await helga.setStatus(`❄️GojobotzMD | ⛈️Running Time : ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
 		idttt = []
@@ -1010,7 +1010,7 @@ if (budy.startsWith('helga')){
 sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*ZukaChan*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/helga_store20')
+reply('http://instagram.com/humanzboti')
 }
 if(isButton == 'ytm'){
 reply('https://youtube.com/c/HelgaZexs妥')
@@ -1117,15 +1117,15 @@ Sanksi: *‼️ PERMANENT BLOCK ‼️*
 
 Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan ZukaChan di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan GojoBotzMD di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan ZukaChan-
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Humanz-
 😖🙏
 
-For GitHub : https://github.com/HelgaIlham
+For GitHub : https://github.com/OrochimaruBotz
 YouTube Helga : https://youtube.com/c/HelgaZexs妥
 `
-sendButLocation(from, `${menu}`, "*ZukaChan*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*GojoBotzMD*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1133,7 +1133,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`ZukaChan`
+menu =`GojoBotzMD`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1161,7 +1161,7 @@ sendEphemeral: false,
 break
      case 'allmenu':
   if (!isRegistered) return reply(`Registrasi Dulu Kak Ketik .verify`)
-        ptod = "6282138919347@s.whatsapp.net"
+        ptod = "6288804947282@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
         		var ra2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1176,7 +1176,7 @@ Untuk Menampilkan Menu Bot
 _⫹⫺🎯Library : Baileys-script_
 _⫹⫺🍰Version : 1.0.0_
 _⫹⫺🍧Language : Javascript_
-_⫹⫺📯Author : Helga Zex's_
+_⫹⫺📯Author : Humnaz_
 _⫹⫺💬Time : ${timeWib} WIB_
 
 
@@ -1254,7 +1254,7 @@ _⫹⫺💬Time : ${timeWib} WIB_
 │ • ${prefix}attp
 ╰────
 `
-sendButLocation(from, `${menu}`, `${uwu}Big Thanks To\n\nAllah SWT\nMy Parrent\nZukaChan\nHelga Ilham\nAll Creator Bot Wa${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}about`,buttonText:{displayText:'ABOUT🌱'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, `${uwu}Big Thanks To\n\nAllah SWT\nMy Parrent\nZukaChan\nHumanz\nAll Creator Bot Wa${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}about`,buttonText:{displayText:'ABOUT🌱'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case 'menu':
         case 'help':
@@ -1278,7 +1278,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               reply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              helga.sendMessage('6282138919347@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              helga.sendMessage('6288804947282@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               break
               case 'verify':
 if (isRegistered) return reply(mess.success)
@@ -1301,7 +1301,7 @@ mhan = await helga.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*©Helga Zex*', 
+footerText:'Terimakasih Sudah Mendaftar\n*©Humanz*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1445,7 +1445,7 @@ case 'jadibot':
 if (!isRegistered) return reply(`Registrasi dulu Kak ketik .verify`)
 menu = `Enak aja lu mau numpang sewa lah :v`
 katalog(menu)
-sendButLocation(from, `Hai ${pushname} ☺️`, "*_© 𝙰𝚢𝚊𝚊 𝚅2.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `Hai ${pushname} ☺️`, "*_© Humnaz_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break
 case 'stopjadibot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
@@ -1467,7 +1467,7 @@ for (let i of ownerNumber) {
 const vname = helga.contacts[i] != undefined ? helga.contacts[i].vname || helga.contacts[i].notify : undefined
 ini_list.push({
 "displayName": `Author ${NamaBot}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;𝐇𝐞𝐥𝐠𝐚 𝐙𝐞𝐱!;;;\nFN:${vname ? `${vname}` : `${helga.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;𝐇umanz!;;;\nFN:${vname ? `${vname}` : `${helga.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 helga.sendMessage(from, {
@@ -1763,7 +1763,7 @@ await helga.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol
 				case 'ttp':  
 				case 'attp':
               if (!isRegistered) return reply(`Registrasi dulu Kak ketik .verify`)
-					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp ZukaChan`)
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp humanz`)
 					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=${lolkey}&text=${encodeURIComponent(c)}`)
 					helga.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break             
